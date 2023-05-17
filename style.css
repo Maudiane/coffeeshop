@@ -1,0 +1,237 @@
+html,
+body{
+    width: 100%;
+    font-family: 'Source Code Pro', monospace;
+}
+.navbar-brand{
+    margin-left: 50px;
+}
+a {
+    position: relative;
+    text-decoration: none;
+    color: #000000;
+    font-size: 18px;
+    font-family: 'Source Code Pro', monospace;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    padding: 18px;
+    margin-top: 0 auto;
+}
+li {
+    list-style: none;
+    text-align: center;
+    position: relative;
+    display: flex;
+    display: inline-block;   
+}
+ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.btn{
+    border-radius: 20px;
+    background-color: #550000;
+    color: #fff;
+    font-size: 20px;
+    margin-right: 50px;
+}
+
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/*.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 3.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+.grid-wrapper {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+.box > img {
+  padding: 5px;
+  width: 150px;
+}
+
+
+.zone {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+
+
+.box div{
+  width:  100%;
+  height: 100%;
+}
+.image-box-content{
+  width: 100%;
+}
+
+footer{
+  background: #49330d;
+  height: auto;
+  width: 100vw;
+  font-family: 'Courier New', Courier, monospace;
+  padding-top: 40px;
+  color: #fff;
+}
+
+.footer-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.foot-content h3{
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 3rem;
+}
+
+.footer-content p{
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+}
+
+.footer-bottom {
+  background: #312816;
+  width: 100vw;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-bottom p{
+  font-size: 14px;
+  word-spacing:  2px;
+  text-transform: capitalize;
+}
+
+.footer-bottom span{
+  font-size: 14px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 20px;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  border-color: #f2f2f2;
+}
+
+.socials {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+}
+
+.socials li{
+  margin: 0;
+}
+
+.socials a{
+  text-decoration: none;
+  color:#fff;
+}
+
+.socials a i{
+  font-size: 1.1rem;
+}
+
+
